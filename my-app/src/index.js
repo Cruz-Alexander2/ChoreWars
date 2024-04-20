@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import Login from './pages/Login';
 import Chore from './pages/Chore';
+import Register from './pages/Register';
 
 import reportWebVitals from './reportWebVitals';
 import {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: "chore",
     element: <Chore/>,
+  },
+  {
+    path: "register",
+    element: <Register/>,
   },
 ]);
 
