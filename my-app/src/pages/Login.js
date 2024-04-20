@@ -6,7 +6,7 @@ function Login() {
     <div>
         <Navbar></Navbar>
         Login Page
-    
+
     </div>
   )
 }

@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import Login from './pages/Login';
+import Chore from './pages/Chore';
 
 import reportWebVitals from './reportWebVitals';
 import {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   {
     path: "login",
     element: <Login/>,
+  },
+  {
+    path: "chore",
+    element: <Chore/>,
   },
 ]);
 
